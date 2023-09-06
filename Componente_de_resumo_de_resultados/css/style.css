@@ -131,3 +131,27 @@ body {
   color: white;
   margin-top: 10px;
 }
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .container .box1 {
+    background-color: hsl(241, 81%, 54%);
+    max-width: 375px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 25px 25px;
+    margin: 0 auto;
+  }
+
+  .container .box2 {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+}
