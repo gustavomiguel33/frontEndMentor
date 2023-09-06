@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  margin: 150px auto;
+  border-radius: 25px 5px 5px 25px;
+  box-shadow: 5px 6px 10px rgba(0, 0, 255, 0.308);
+}
+
+.container .box1 {
+  background-color: hsl(241, 81%, 54%);
+  width: 280px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
+
+.container .box1 h4 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgb(219, 203, 203);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.603);
+}
+
+.container .box1 h3 {
+  color: rgb(243, 233, 233);
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container .box1 p {
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: rgb(219, 203, 203);
+  width: 80%;
+  margin: 0 auto 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.box1 h4, .box1 h3, .box1 p {
+  margin: 25px 0;
+}
+
+.container .box1 div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.411), rgba(255, 255, 255, 0.493));
+}
+
+.container .box1 div span:first-child {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container .box2 {
+  width: 300px;
+  padding: 30px;
+}
+
+.container .box2 h4 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  margin-bottom: 20px;
+}
+
+.container .box2 div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 14px;
+}
+
+.container .box2 div .ultimo-span {
+  color: rgb(90, 83, 83);
+}
+
+.container .box2 .icon1 {
+  background-color: #fff1ed;
+}
+
+.container .box2 .icon1 .text-icon1 {
+  color: #ff7f5f;
+}
+
+.container .box2 .icon2 {
+  background-color: #ffffd1;
+}
+
+.container .box2 .icon2 .text-icon2 {
+  color: #f1c448;
+}
+
+.container .box2 .icon3 {
+  background-color: #e7fffc;
+}
+
+.container .box2 .icon3 .text-icon3 {
+  color: #30c4b2;
+} 
+
+.container .box2 .icon4 {
+  background-color: #e5e5ff;
+}
+
+.container .box2 .icon4 .text-icon4 {
+  color: #4242c0;
+}
+
+.container .box2 button {
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 0;
+  background-color: #303B59;
+  color: white;
+  margin-top: 10px;
+}
