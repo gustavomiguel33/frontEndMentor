@@ -7,6 +7,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     color: white;
+    background-color: #0D1A2D;
 }
 
 .container {
@@ -23,18 +24,19 @@ body {
     border-radius: 7px;
 }
 
-.container .image-logo img:active {
-    background-color: #00FFF8;
+.container .link-equilibrium {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.container h3 {
-    margin-bottom: 15px;
-    letter-spacing: 1px;
+.container .link-equilibrium:active {
+    color: #00FFF8;
 }
 
 .container p {
     width: 300px;
-    margin-bottom: 15px;
+    margin: 10px 0;
     font-size: 16px;
     font-weight: 300;
     color: rgb(194, 186, 186);
@@ -77,4 +79,13 @@ body {
 .container .avatar .avatar-text {
     color: #8BACD9;
     margin-right: 5px;
+}
+
+.container .avatar a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .avatar a:active {
+    color: #00FFF8;
 }
