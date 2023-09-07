@@ -7,7 +7,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     color: white;
-    background-color: #0D1A2D;
+    background-color: rgb(223, 198, 198);
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
     padding: 25px 20px;
     background-color: #14273E;
     border-radius: 7px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.596);
 }
 
 .container .image-logo img {
