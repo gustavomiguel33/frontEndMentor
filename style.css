@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container .image img {
+    border-radius: 8px 8px 0 0;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+    bottom: 4px;
+}
+
+.container .text {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container .text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.container .text h2 {
+    margin-bottom: 10px;
+}
+
+.container .links {
+    width: 320px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 7px;
+    background-color: rgba(227, 239, 250, 0.473);
+    
+}
+
+.container .links img {
+    width: 30px;
+}
+
+.container .links span {
+    font-size: 14px;
+}
+
+.container .links span:first-child {
+    margin-left: -15px;
+}
+
+.container .button {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+.container .button button {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container .button button:first-child {
+    padding: 7px 0;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    background-color: #382BE1;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 10px 10px rgba(0, 0, 255, 0.438);
+}
+
+.container .button button:last-child {
+    padding: 7px 0;
+    background-color: white;
+    border: none;
+}
+
+.container .button a {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(8, 8, 77);
+}
