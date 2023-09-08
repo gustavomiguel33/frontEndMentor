@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    background-color: rgb(223, 198, 198);
+}
+
+.container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px 20px;
+    background-color: #14273E;
+    border-radius: 7px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.596);
+}
+
+.container .image-logo img {
+    width: 310px;
+    margin: 15px auto;
+    border-radius: 7px;
+}
+
+.container .link-equilibrium {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container .link-equilibrium:active {
+    color: #00FFF8;
+}
+
+.container p {
+    width: 300px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(194, 186, 186);
+}
+
+.container .icons {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.container .icons img {
+    margin-right: 3px;    
+}
+
+.container .icons span:first-child {
+    color: #00FFF8;
+}
+
+.container .icons span:last-child {
+    color: #8BACD9;
+}
+
+.container .avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container .avatar img {
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.container .avatar .avatar-text {
+    color: #8BACD9;
+    margin-right: 5px;
+}
+
+.container .avatar a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .avatar a:active {
+    color: #00FFF8;
+}
